@@ -1,0 +1,28 @@
+# Archivos temporales de Python y R
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Archivos auxiliares de compilación LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Configuración local y credenciales
+.env
+.env.*
+!.env.example
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+~$*
