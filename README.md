@@ -50,23 +50,3 @@ python generar_informe.py
 ```
 
 Los gráficos y las tablas se leen de los resultados. La discusión escrita corresponde a las semillas y a la especificación entregadas; si se cambian, también debe revisarse el texto del informe. Los integrantes están incluidos en el PDF, el HTML, las fuentes y el encabezado del código R.
-
-## Publicar la entrega en GitHub
-
-El paquete está preparado para publicarse, pero no está desplegado ni asociado a un repositorio.
-
-1. Subir el contenido de esta carpeta al repositorio elegido, conservando `index.html` en su raíz. El PDF, el archivo R y los resultados pueden acompañarlo como evidencia reproducible.
-2. En **Settings > Pages**, seleccionar **Deploy from a branch** y la rama que contiene los archivos, con la carpeta **/(root)**. Guardar.
-3. Cuando GitHub termine la publicación, abrir el enlace que aparece en Pages y entregar esa dirección junto con el PDF y el archivo R, según lo que solicite el profesor.
-
-Fuente de estos pasos: [documentación oficial de GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), consultada el 24 de octubre de 2026.
-
-## Resultados de referencia
-
-- Modelo completo: R² = 0,684571; R² ajustado = 0,682985.
-- Prueba: RMSE = 0,304111; MAE = 0,242619; R² = 0,691660.
-- Estrato: coeficiente = -0,003527; p = 0,482870.
-- Calidad: 56 filas con alguna duración negativa y 15 notas iguales a 5.
-- RESET: p = 0,050283. Se interpreta como un resultado fronterizo.
-
-El anexo declara el apoyo de ChatGPT e incluye la solicitud reformulada para reproducir y comparar el ejercicio ya desarrollado, con un rol de revisor técnico (viewer) y corrector ortográfico. Documenta sugerencias concretas sobre la configuración del generador aleatorio y la referencia al objeto exportado, explicando sus causas y las correcciones. También registra el apoyo técnico y editorial prestado durante la preparación del informe.
